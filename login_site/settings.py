@@ -15,7 +15,7 @@ import pymysql         # 一定要添加这两行！
 pymysql.install_as_MySQLdb()
 from django.conf import settings
 
-INNER_IP = '172.27.0.4:3306'
+INNER_IP = '172.27.0.4'
 OUTER_IP = '45.40.250.238'
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
