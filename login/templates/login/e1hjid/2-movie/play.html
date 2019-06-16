@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
+    <title>详细信息</title>
+    <link rel="shortcut icon" href="../static/base/images/logo.png">
+    <link rel="stylesheet" href="../static/base/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/base/css/bootstrap-movie.css">
+    <link rel="stylesheet" href="../static/base/css/animate.css">
+    <!--播放页面-->
+    <link rel="stylesheet" type="text/css" href="../static/jwplayer/skins/stormtrooper.css">
+    <script type="text/javascript" src="../static/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="../static/ueditor/ueditor.all.js"></script>
+    <script type="text/javascript" src="../static/ueditor/lang/zh-cn/zh-cn.js"></script>
+    <!--播放页面-->
+    <style>
+        .navbar-brand > img {
+            display: inline;
+        }
+
+        .media {
+            padding: 3px;
+            border: 1px solid #ccc
+        }
+
+        .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+            padding-right: 3px;
+            padding-left: 3px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+<!--导航-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!--小屏幕导航按钮和logo-->
+        <div class="navbar-header col-md-4">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand" style="width:250px;">
+                <img src="../static/base/images/logo.png" style="height:30px;">&nbsp;电影详情
+            </a>
+        </div>
+        <!--小屏幕导航按钮和logo-->
+        <!--导航-->
+        <div class="navbar-collapse collapse col-md-4">
+            <form class="navbar-form" method="get" action="/search/">
+                <div class="form-group">
+                    <input name="title" type="text" placeholder="想要搜索的电影" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">搜索</button>
+            </form>
+
+        </div>
+        <!--导航-->
+        <div class="col-md-4">
+            <ul class="nav navbar-nav navbar-right">
+                {% if request.session.is_login %}
+                    <li>
+                        <a class="curlink" href="/logout/"><span class="glyphicon glyphicon-log-out"></span>&nbsp;退出</a>
+                    </li>
+
+                {% endif %}
+                <li>
+                    <a class="curlink" href="/index/"><span class="glyphicon glyphicon-film"></span>&nbsp;首页</a>
+                </li>
+                <li>
+                    <a class="curlink" href="/register/"><span class="glyphicon glyphicon-plus"></span>&nbsp;注册</a>
+                </li>
+                <li><a class="curlink" href="/login/"><span class="glyphicon glyphicon-log-in"></span>&nbsp;登录</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<!--导航-->
+<!--内容-->
+
+<div class="container" style="margin-top:76px">
+    <div class="row">
+        <div class="col-md-8">
+            <div id="moviecontainer"></div>
+        </div>
+        <div class="col-md-4" style="height:500px;">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><span class="glyphicon glyphicon-facetime-video"></span>&nbsp;电影介绍</h3>
+                </div>
+                <div class="panel-body" style="height:459px;">
+                    <table class="table">
+
+                        {% for movie_info in movie_info %}
+                            <tr>
+                                <td style="width:30%;color:#ccc;font-weight:bold;font-style:italic;">
+                                    <span class="glyphicon glyphicon-film"></span>&nbsp;片名
+                                </td>
+                                <td>{{ movie_info.title }}</td>
+                            </tr>
+                            <tr>
+                                <td style="color:#ccc;font-weight:bold;font-style:italic;">
+                                    <span class="glyphicon glyphicon-tag"></span>&nbsp;类型
+                                </td>
+                                <td>{{ movie_info.grenre }}</td>
+                            </tr>
+                            <tr>
+                                <td style="color:#ccc;font-weight:bold;font-style:italic;">
+                                    <span class="glyphicon glyphicon-time"></span>&nbsp;导演
+                                </td>
+                                <td>{{ movie_info.director }}</td>
+                            </tr>
+                            <tr>
+                                <td style="color:#ccc;font-weight:bold;font-style:italic;">
+                                    <span class="glyphicon glyphicon-map-marker"></span>&nbsp;地区
+                                </td>
+                                <td>{{ movie_info.country }}</td>
+                            </tr>
+                            <tr>
+                                <td style="color:#ccc;font-weight:bold;font-style:italic;">
+                                    <span class="glyphicon glyphicon-star"></span>&nbsp;星级
+                                </td>
+                                <td>
+                                    <div>
+                                        <span class="glyphicon glyphicon-star" style="color:#FFD119"></span>
+                                        <span class="glyphicon glyphicon-star" style="color:#FFD119"></span>
+                                        <span class="glyphicon glyphicon-star" style="color:#FFD119"></span>
+                                        <span class="glyphicon glyphicon-star-empty" style="color:#FFD119"></span>
+                                        <span class="glyphicon glyphicon-star-empty" style="color:#FFD119"></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="color:#ccc;font-weight:bold;font-style:italic;">
+                                    <span class="glyphicon glyphicon-calendar"></span>&nbsp;上映时间
+                                </td>
+                                <td>{{ movie_info.year }}</td>
+                            </tr>
+                            <tr>
+                                <td style="color:#ccc;font-weight:bold;font-style:italic;">
+                                    <span class="glyphicon glyphicon-play"></span>&nbsp;演员
+                                </td>
+                                <td>{{ movie_info.actors }}</td>
+                            </tr>
+                            <tr>
+                                <td style="color:#ccc;font-weight:bold;font-style:italic;">
+                                    <span class="glyphicon glyphicon-comment"></span>&nbsp;评论数量
+                                </td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <td style="color:#ccc;font-weight:bold;font-style:italic;">
+                                    <span class="glyphicon glyphicon-picture"></span>&nbsp;影片介绍
+                                </td>
+                                <td>
+                                    {{ movie_info.description }}
+                                </td>
+                            </tr>
+                        {% endfor %}
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12" style="margin-top:6px;">
+
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><span class="glyphicon glyphicon-comment"></span>&nbsp;电影评论</h3>
+                </div>
+
+                <div class="panel-body">
+
+                    <ol class="breadcrumb" style="margin-top:6px;">
+                        <li>全部评论(5)</li>
+                    </ol>
+                    {% if request.session.is_login %}
+                        <form role="form" name="nForm" action="/user_rating/" method="post" style="margin-bottom:6px;">
+                            <div class="form-group">
+                                <label for="select">评分{{ movie_info.title }}</label>
+                                <div id="login-div">
+                                    <div class="select-wrapper">
+                                        <select name="span" id="selector1">
+                                            <option value="" disabled selected>请选择评分：</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div>
+                                    <label for="input_content">内容</label>
+                                    <textarea name="comment" id="input_content"></textarea>
+                                </div>
+                                <div class="col-xs-12" id="error_content"></div>
+                            </div>
+                            <button type="submit" class="btn btn-success">&nbsp;提交评论</button>
+                            &nbsp;
+                        </form>
+                    {% else %}
+
+                        <div class="alert alert-danger alert-dismissible" role="alert">
+                            <button type="button" class="close" data-dismiss="alert">
+                                <span aria-hidden="true">×</span>
+                                <span class="sr-only">Close</span>
+                            </button>
+                            <strong>请先<a href="/login/" target="_blank" class="text-info">登录</a>，才可参与评论！</strong>
+                        </div>
+                    {% endif %}
+
+
+                    <div>
+                        {% for var_rating in rating_info %}
+                            <ul class="commentList">
+                                <li class="item cl">
+                                    <a href="user.html">
+                                        <i class="avatar size-L radius">
+                                            <img alt="50x50" src="holder.js/50x50" class="img-circle"
+                                                 style="border:1px solid #abcdef;">
+                                        </i>
+                                    </a>
+                                    <div class="comment-main">
+
+                                        <header class="comment-header">
+                                            <div class="comment-meta">
+                                                <a class="comment-author">{{ var_rating.user_name }}</a>
+                                                的评论
+                                            </div>
+                                        </header>
+
+                                        <div class="comment-body">
+                                            <p>{{ var_rating.comment }}</p>
+                                        </div>
+
+
+                                    </div>
+                                </li>
+
+                            </ul>
+                        {% endfor %}
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--内容-->
+<!--底部-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    ©&nbsp;2019&nbsp;flaskmovie.imooc.com&nbsp;京ICP备 13046642号-2
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--底部-->
+<script src="../static/base/js/jquery.min.js"></script>
+<script src="../static/base/js/bootstrap.min.js"></script>
+<script src="../static/base/js/jquery.singlePageNav.min.js"></script>
+<script src="../static/base/js/wow.min.js"></script>
+<script src="../static/lazyload/jquery.lazyload.min.js"></script>
+<script src="//cdn.bootcss.com/holder/2.9.4/holder.min.js"></script>
+<!--播放页面-->
+<script src="../static/jwplayer/jwplayer.js"></script>
+<script>
+    var ue = UE.getEditor('input_content', {
+        toolbars: [
+            ['fullscreen', 'emotion', 'preview', 'link']
+        ],
+        initialFrameWidth: "100%",
+        initialFrameHeight: "100",
+    });
+</script>
+<script type="text/javascript">
+    jwplayer.key = "P9VTqT/X6TSP4gi/hy1wy23BivBhjdzVjMeOaQ==";
+</script>
+<script type="text/javascript">
+    jwplayer("moviecontainer").setup({
+        flashplayer: "../static/jwplayer/jwplayer.flash.swf",
+        playlist: [{
+            file: "../static/video/htpy.mp4",
+            title: ""
+        }],
+        modes: [{
+            type: "html5"
+        }, {
+            type: "flash",
+            src: "../static/jwplayer/jwplayer.flash.swf"
+        }, {
+            type: "download"
+        }],
+        skin: {
+            name: "vapor"
+        },
+        "playlist.position": "left",
+        "playlist.size": 400,
+        height: 500,
+        width: 774,
+    });
+</script>
+<!--播放页面-->
+<script>
+    $(function () {
+        new WOW().init();
+    })
+</script>
+<script>
+    $(document).ready(function () {
+        $("img.lazy").lazyload({
+            effect: "fadeIn"
+        });
+    });
+</script>
+</body>
+</html>

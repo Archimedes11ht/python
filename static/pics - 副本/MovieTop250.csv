@@ -1,0 +1,57 @@
+,MovieName,Director,Actors,Year,Country,Grenre,Rating10,RatingNum,Description,,Path
+0,肖申克的救赎, 弗兰克·德拉邦特 Frank Darabont, 蒂姆·罗宾斯 Tim Robbins /...,1994,美国,犯罪 剧情,9.6,1230378人评价,希望让人自由。,,static\pics\肖申克的救赎.jpg
+1,霸王别姬, 陈凯歌 Kaige Chen, 张国荣 Leslie Cheung / 张丰毅 Fengyi Zha...,1993,中国大陆 香港,剧情 爱情 同性,9.6,905721人评价,风华绝代。,,static\pics\霸王别姬.jpg
+2,这个杀手不太冷, 吕克·贝松 Luc Besson, 让·雷诺 Jean Reno / 娜塔莉·波特曼 ...,1994,法国,剧情 动作 犯罪,9.4,1131289人评价,怪蜀黍和小萝莉不得不说的故事。,,static\pics\这个杀手不太冷.jpg
+3,阿甘正传, Robert Zemeckis, Tom Hanks / Robin Wright Penn / Gary Sinise,1994,美国,剧情 爱情,9.4,970134人评价,一部美国近现代史。,,static\pics\阿甘正传.jpg
+4,美丽人生, 罗伯托·贝尼尼 Roberto Benigni, 罗伯托·贝尼尼 Roberto Beni...,1997,意大利,剧情 喜剧 爱情 战争,9.5,566823人评价,最美的谎言。,,static\pics\美丽人生.jpg
+5,泰坦尼克号, 詹姆斯·卡梅隆 James Cameron, 莱昂纳多·迪卡普里奥 Leonardo...,1997,美国,剧情 爱情 灾难,9.3,905712人评价,失去的才是永恒的。,,static\pics\泰坦尼克号.jpg
+6,千与千寻, 宫崎骏 Hayao Miyazaki, 柊瑠美 Rumi H?ragi / 入野自由 Miy...,2001,日本,剧情 动画 奇幻,9.3,898562人评价,最好的宫崎骏，最好的久石让。,,static\pics\千与千寻.jpg
+7,辛德勒的名单, 史蒂文·斯皮尔伯格 Steven Spielberg, 连姆·尼森 Liam Neeson...,1993,美国,剧情 历史 战争,9.5,509213人评价,拯救一个人，就是拯救整个世界。,,static\pics\辛德勒的名单.jpg
+8,盗梦空间, 克里斯托弗·诺兰 Christopher Nolan, 莱昂纳多·迪卡普里奥 Le...,2010,美国 英国,剧情 科幻 悬疑 冒险,9.3,985153人评价,诺兰给了我们一场无法盗取的梦。,,static\pics\盗梦空间.jpg
+9,机器人总动员, 安德鲁·斯坦顿 Andrew Stanton, 本·贝尔特 Ben Burtt / 艾丽...,2008,美国,爱情 科幻 动画 冒险,9.3,653787人评价,小瓦力，大人生。,,static\pics\机器人总动员.jpg
+10,忠犬八公的故事, 莱塞·霍尔斯道姆 Lasse Hallstr?m, 理查·基尔 Richard Ger...,2009,美国 英国,剧情,9.3,639873人评价,永远都不能忘记你所爱的人。,,static\pics\忠犬八公的故事.jpg
+11,三傻大闹宝莱坞, 拉库马·希拉尼 Rajkumar Hirani, 阿米尔·汗 Aamir Khan / 卡...,2009,印度,剧情 喜剧 爱情 歌舞,9.2,882141人评价,英俊版憨豆，高情商版谢耳朵。,,static\pics\三傻大闹宝莱坞.jpg
+12,海上钢琴师, 朱塞佩·托纳多雷 Giuseppe Tornatore, 蒂姆·罗斯 Tim Roth / ...,1998,意大利,剧情 音乐,9.2,735558人评价,每个人都要走一条自己坚定了的路，就算是粉身碎骨。,,static\pics\海上钢琴师.jpg
+13,放牛班的春天, 克里斯托夫·巴拉蒂 Christophe Barratier, 杰拉尔·朱诺 Géra...,2004,法国 瑞士 德国,剧情 音乐,9.2,607331人评价,天籁一般的童声，是最接近上帝的存在。,,static\pics\放牛班的春天.jpg
+14,大话西游之大圣娶亲, 刘镇伟 Jeffrey Lau, 周星驰 Stephen Chow / 吴孟达 Man Tat Ng...,1995,香港 中国大陆,喜剧 爱情 奇幻 冒险,9.2,673264人评价,一生所爱。,,static\pics\大话西游之大圣娶亲.jpg
+15,楚门的世界, 彼得·威尔 Peter Weir, 金·凯瑞 Jim Carrey / 劳拉·琳妮 Lau...,1998,美国,剧情 科幻,9.2,653209人评价,如果再也不能见到你，祝你早安，午安，晚安。,,static\pics\楚门的世界.jpg
+16,星际穿越, 克里斯托弗·诺兰 Christopher Nolan, 马修·麦康纳 Matthew Mc...,2014,美国 英国 加拿大 冰岛,剧情 科幻 冒险,9.2,667026人评价,爱是一种力量，让我们超越时空感知它的存在。,,static\pics\星际穿越.jpg
+17,教父, 弗朗西斯·福特·科波拉 Francis Ford Coppola, 马龙·白兰度 M...,1972,美国,剧情 犯罪,9.2,446436人评价,千万不要记恨你的对手，这样会让你失去理智。,,static\pics\教父.jpg
+18,龙猫, 宫崎骏 Hayao Miyazaki, 日高法子 Noriko Hidaka / 坂本千夏 Ch...,1988,日本,动画 奇幻 冒险,9.1,563521人评价,人人心中都有个龙猫，童年就永远不会消失。,,static\pics\龙猫.jpg
+19,熔炉, 黄东赫 Dong-hyuk Hwang, 孔侑 Yoo Gong / 郑有美 Yu-mi Jeong ...,2011,韩国,剧情,9.3,380260人评价,我们一路奋战不是为了改变世界，而是为了不让世界改变我们。,,static\pics\熔炉.jpg
+20,无间道, 刘伟强 / 麦兆辉, 刘德华 / 梁朝伟 / 黄秋生,2002,香港,剧情 犯罪 悬疑,9.1,552112人评价,香港电影史上永不过时的杰作。,,static\pics\无间道.jpg
+21,当幸福来敲门, 加布里尔·穆奇诺 Gabriele Muccino, 威尔·史密斯 Will Smith ...,2006,美国,剧情 传记 家庭,9,713275人评价,平民励志片。,,static\pics\当幸福来敲门.jpg
+22,触不可及, 奥利维·那卡什 Olivier Nakache / 艾力克·托兰达 Eric Toledano,NaN,2011,法国,剧情 喜剧,9.2,473742人评价,满满温情的高雅喜剧。,,static\pics\触不可及.jpg
+23,怦然心动, 罗伯·莱纳 Rob Reiner, 玛德琳·卡罗尔 Madeline Carroll / 卡...,2010,美国,剧情 喜剧 爱情,9,769539人评价,真正的幸福是来自内心深处。,,static\pics\怦然心动.jpg
+24,疯狂动物城, 拜伦·霍华德 Byron Howard / 瑞奇·摩尔 Rich Moore, 金妮弗·...,2016,美国,喜剧 动画 冒险,9.2,734214人评价,迪士尼给我们营造的乌托邦就是这样，永远善良勇敢，永远出乎意料。,,static\pics\疯狂动物城.jpg
+25,乱世佳人, 维克多·弗莱明 Victor Fleming / 乔治·库克 George Cukor, 费...,1939,美国,剧情 历史 爱情 战争,9.2,338119人评价,Tomorrow is another day.,,static\pics\乱世佳人.jpg
+26,蝙蝠侠：黑暗骑士, 克里斯托弗·诺兰 Christopher Nolan, 克里斯蒂安·贝尔 Christ...,2008,美国 英国,剧情 动作 科幻 犯罪 惊悚,9.1,443205人评价,无尽的黑暗。,,static\pics\蝙蝠侠：黑暗骑士.jpg
+27,活着, 张艺谋 Yimou Zhang, 葛优 You Ge / 巩俐 Li Gong / 姜武 Wu Jiang,1994,中国大陆 香港,剧情 历史 家庭,9.1,366182人评价,张艺谋最好的电影。,,static\pics\活着.jpg
+28,天堂电影院, 朱塞佩·托纳多雷 Giuseppe Tornatore, 安东娜拉·塔莉 Antonel...,1988,意大利 法国,剧情 爱情,9.1,370367人评价,那些吻戏，那些青春，都在影院的黑暗里被泪水冲刷得无比清晰。,,static\pics\天堂电影院.jpg
+29,少年派的奇幻漂流, 李安 Ang Lee, 苏拉·沙玛 Suraj Sharma / 伊尔凡·可汗 Irrfan...,2012,美国 台湾 英国 加拿大,剧情 奇幻 冒险,9,729633人评价,瑰丽壮观、无人能及的冒险之旅。,,static\pics\少年派的奇幻漂流.jpg
+30,十二怒汉, Sidney Lumet, 亨利·方达 Henry Fonda / 马丁·鲍尔萨姆 Marti...,1957,美国,剧情,9.4,217534人评价,1957年的理想主义。,,static\pics\十二怒汉.jpg
+31,鬼子来了, 姜文 Wen Jiang, 姜文 Wen Jiang / 香川照之 Teruyuki Kagawa /...,2000,中国大陆,剧情 历史 战争,9.2,302723人评价,对敌人的仁慈，就是对自己残忍。,,static\pics\鬼子来了.jpg
+32,指环王3：王者无敌, 彼得·杰克逊 Peter Jackson, 维果·莫腾森 Viggo Mortensen / ...,2003,美国 新西兰,剧情 动作 奇幻 冒险,9.1,362433人评价,史诗的终章。,,static\pics\指环王3：王者无敌.jpg
+33,控方证人, 比利·怀尔德 Billy Wilder, 查尔斯·劳顿 Charles Laughton / ...,1957,美国,剧情 犯罪 悬疑,9.6,148306人评价,比利·怀德满分作品。,,static\pics\控方证人.jpg
+34,天空之城, 宫崎骏 Hayao Miyazaki, 田中真弓 Mayumi Tanaka / 横泽启子 Ke...,1986,日本,动画 奇幻 冒险,9,421938人评价,对天空的追逐，永不停止。,,static\pics\天空之城.jpg
+35,搏击俱乐部, 大卫·芬奇 David Fincher, 爱德华·诺顿 Edward Norton / 布拉...,1999,美国 德国,剧情 动作 悬疑 惊悚,9,477108人评价,邪恶与平庸蛰伏于同一个母体，在特定的时间互相对峙。,,static\pics\搏击俱乐部.jpg
+36,飞屋环游记, 彼特·道格特 Pete Docter / 鲍勃·彼德森 Bob Peterson, 爱德...,2009,美国,剧情 喜剧 动画 冒险,8.9,643941人评价,最后那些最无聊的事情，才是最值得怀念的。,,static\pics\飞屋环游记.jpg
+37,大话西游之月光宝盒, 刘镇伟 Jeffrey Lau, 周星驰 Stephen Chow / 吴孟达 Man Tat Ng...,1995,香港 中国大陆,喜剧 爱情 奇幻 冒险,8.9,542463人评价,旷古烁今。,,static\pics\大话西游之月光宝盒.jpg
+38,罗马假日, 威廉·惠勒 William Wyler, 奥黛丽·赫本 Audrey Hepburn / 格...,1953,美国,喜剧 剧情 爱情,9,487219人评价,爱情哪怕只有一天。,,static\pics\罗马假日.jpg
+39,摔跤吧！爸爸, 涅提·蒂瓦里 Nitesh Tiwari, 阿米尔·汗 Aamir Khan / 法缇玛...,2016,印度,剧情 传记 运动 家庭,9.1,658381人评价,你不是在为你一个人战斗，你要让千千万万的女性看到女生并不是只能相夫教子。,,static\pics\摔跤吧！爸爸.jpg
+40,窃听风暴, 弗洛里安·亨克尔·冯·多纳斯马 Florian Henckel von Donnersmarck,NaN,2006,德国,剧情 悬疑,9.1,288713人评价,别样人生。,,static\pics\窃听风暴.jpg
+41,哈尔的移动城堡, 宫崎骏 Hayao Miyazaki, 倍赏千惠子 Chieko Baish? / 木村拓...,2004,日本,动画 奇幻 冒险,8.9,458328人评价,带着心爱的人在天空飞翔。,,static\pics\哈尔的移动城堡.jpg
+42,辩护人, 杨宇硕 Woo-seok Yang, 宋康昊 Kang-ho Song / 吴达洙 Dal-su O...,2013,韩国,剧情,9.2,286524人评价,电影的现实意义大过电影本身。,,static\pics\辩护人.jpg
+43,闻香识女人, 马丁·布莱斯 Martin Brest, 阿尔·帕西诺 Al Pacino / 克里斯...,1992,美国,剧情,9,413592人评价,史上最美的探戈。,,static\pics\闻香识女人.jpg
+44,两杆大烟枪, Guy Ritchie, Jason Flemyng / Dexter Fletcher / Nick Moran,1998,英国,剧情 喜剧 犯罪,9.1,326789人评价,4个臭皮匠顶个诸葛亮，盖·里奇果然不是盖的。,,static\pics\两杆大烟枪.jpg
+45,飞越疯人院, 米洛斯·福尔曼 Milo? Forman, 杰克·尼科尔森 Jack Nichols...,1975,美国,剧情,9,331199人评价,自由万岁。,,static\pics\飞越疯人院.jpg
+46,死亡诗社, 彼得·威尔 Peter Weir, 罗宾·威廉姆斯 Robin Williams / 罗伯...,1989,美国,剧情,9,354472人评价,当一个死水般的体制内出现一个活跃的变数时，所有的腐臭都站在了光明的对面。,,static\pics\死亡诗社.jpg
+47,V字仇杀队, 詹姆斯·麦克特格 James McTeigue, 娜塔莉·波特曼 Natalie Por...,2005,美国 英国 德国,剧情 动作 科幻 惊悚,8.8,536791人评价,一张面具背后的理想与革命。,,static\pics\V字仇杀队.jpg
+48,海豚湾, Louie Psihoyos, John Chisholm / Mandy-Rae Cruikshank / Char...,2009,美国,纪录片,9.3,217871人评价,海豚的微笑，是世界上最高明的伪装。,,static\pics\海豚湾.jpg
+49,教父2, 弗朗西斯·福特·科波拉 Francis Ford Coppola, 阿尔·帕西诺 A...,1974,美国,剧情 犯罪,9.1,241548人评价,优雅的孤独。,,static\pics\教父2.jpg
+50,指环王2：双塔奇兵, 彼得·杰克逊 Peter Jackson, 伊利亚·伍德 Elijah Wood / 西恩...,2002,美国 新西兰,剧情 动作 奇幻 冒险,9,340014人评价,承前启后的史诗篇章。,,static\pics\指环王2：双塔奇兵.jpg
+51,指环王1：魔戒再现, 彼得·杰克逊 Peter Jackson, 伊利亚·伍德 Elijah Wood / 西恩...,2001,新西兰 美国,剧情 动作 奇幻 冒险,8.9,380655人评价,传说的开始。,,static\pics\指环王1：魔戒再现.jpg
+52,美丽心灵, 朗·霍华德 Ron Howard, 罗素·克劳 Russell Crowe / 艾德·哈...,2001,美国,传记 剧情,8.9,377746人评价,爱是一切逻辑和原由。,,static\pics\美丽心灵.jpg
+53,饮食男女, 李安 Ang Lee, 郎雄 Sihung Lung / 杨贵媚 Kuei-Mei Yang / 吴...,1994,台湾 美国,剧情 家庭,9.1,261678人评价,人生不能像做菜，把所有的料都准备好了才下锅。,,static\pics\饮食男女.jpg
+54,情书, 岩井俊二 Shunji Iwai, 中山美穗 Miho Nakayama / 丰川悦司 Ets...,1995,日本,剧情 爱情,8.8,467652人评价,暗恋的极致。,,static\pics\情书.jpg
+55,素媛, 李濬益 Jun-ik Lee, 薛景求 Kyung-gu Sol / 严志媛 Ji-won Uhm ...,2013,韩国,剧情,9.1,247974人评价,受过伤害的人总是笑得最开心，因为他们不愿意让身边的人承受一样的痛苦。,,static\pics\素媛.jpg
